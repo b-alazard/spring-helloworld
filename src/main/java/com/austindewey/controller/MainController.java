@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MainController {
 
-    private final String message = "Hello World!";
+    private final String message = "Thanks for watching this s2i demo!";
 
     @GetMapping("/")
     public String hello(Model model) {
